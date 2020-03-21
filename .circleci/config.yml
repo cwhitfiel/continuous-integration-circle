@@ -7,7 +7,7 @@ jobs:
   build:
     executor: ci-executor
     steps:
-<<<<<<< 
+
 
       - run:
           name: build dependencies
@@ -20,4 +20,4 @@ jobs:
       - run:
           name: notify build is finished
           command: echo "The build is finished!"
->>>>>>> master
+ master
